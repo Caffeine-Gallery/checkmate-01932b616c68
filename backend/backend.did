@@ -1,0 +1,10 @@
+service : {
+  addItem: (text) -> ();
+  deleteItem: (nat) -> ();
+  getItems: () -> (vec record {
+                         nat;
+                         text;
+                         bool;
+                       }) query;
+  toggleItem: (nat) -> ();
+}
